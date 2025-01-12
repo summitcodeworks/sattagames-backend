@@ -1,4 +1,5 @@
 const Player = require('../models/Player');
+const pool = require('../config/db');
 
 const playersQueue = [];
 const playerTimeouts = {}; // Store timeout references for each player

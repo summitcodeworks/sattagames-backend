@@ -9,9 +9,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.21.2",
+    "pg": "^8.13.1",
+    "tunnel-ssh": "^5.2.0",
     "ws": "^8.18.0"
   },
-  "devDependencies": {},
   "description": ""
 }
